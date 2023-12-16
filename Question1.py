@@ -12,14 +12,17 @@ def queue(arg1, arg2, arg3):
 
 num = [1, 2, 3]
 
+
+
+print('Adding new element to the stack')
 stack(num, "add", 0)
 print(num) 
-
+print('Adding remove an element from stack')
 stack(num, "remove", 0)
 print(num)
-
+print('Adding new element to the queue')
 queue(num, "add", 4)
 print(num)  
-
+print('Adding remove and element from the queue')
 queue(num, "remove", 0)
 print(num)  
